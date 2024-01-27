@@ -12,7 +12,7 @@ const DoubtFooter = () => {
           <div className="Footersubone">
             <img
               style={{ width: "80%" }}
-              src="https://coachify-app.vercel.app/coachifylogo.png"
+              src="./DOUBTPUCHO LOGO 1.jpg"
               alt=""
             />
           </div>
