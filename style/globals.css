@@ -2680,6 +2680,7 @@ span.Newblinking-cursor {
   border-radius: 20px;
   color: #5236ce;
   min-height: 115px;
+  text-align: left;
 }
 .teachers-name {
   margin-top: 5px;
@@ -3088,14 +3089,35 @@ width: 33.33%;
     display: flex;
     border-top: 1px solid #A976FF;
   }
-  .Footersubone{
+  .Footersubone {
     width: 33.33%;
+}
+
+
+  .Footersubone1{
+    width: 33.33%;
+    display: inline-block;
   }
-  .Footersubone h5{
+  .Footersubone2{
+    width: 33.33%;
+    display: inline-block;
+  }
+  .Footersubone2 h5{
     color: white;
     font-weight: 700;
   }
-  .Footersubone ul {
+  .Footersubone2 ul {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    padding: 0px !important;
+  }
+  .Footersubone1 h5{
+    color: white;
+    font-weight: 700;
+  }
+  .Footersubone1 ul {
     color: white;
     text-decoration: none;
     list-style: none;
@@ -3198,7 +3220,7 @@ ul.FootericonList {
         font-size: 1rem;
     }
     .NewDoubtMaincontainer {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     span.Newtext-why-fix {
         font-size: 26px;
@@ -3269,17 +3291,17 @@ ul.FootericonList {
     
     .cardcont2 {
         display: flex;
-       
+        flex-wrap: wrap;
         width: 100%;
     }
     .box1 {
-       
-        margin: 0px;
+        margin: 5px auto;
+        width: 64%;
         background-color: white;
         border: 1px solid #d5d5d5;
         padding: 12px;
         border-radius: 16px;
-        text-align: left;
+        text-align: center;
         font-size: 10px;
     }
     .box1 img{
@@ -3406,11 +3428,11 @@ ul.FootericonList {
 
     .Footersubcont {
         width: 100%;
-        flex-direction: column;
-        align-items: center;
+        display: inline-block;
+        text-align: center;
     }
     .Footersubone {
-        width: 50%;
+        width: 100%;
         text-align: center;
     }
     .Footersubcont ul {
@@ -3420,7 +3442,7 @@ ul.FootericonList {
     }
     .Footericon {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     ul.FootericonList {
         width: 60%;
@@ -3428,7 +3450,27 @@ ul.FootericonList {
         margin: 0 auto !important;
     }
     .Footersubcont ul {
-        margin: 5px 0px;
+        margin: 5px auto;
+        text-align: left;
+        width: 16%;
     }
-
+    .Footersubone1 {
+        width: 100%;
+        display: inline-block;
+    }
+    .Footersubone2 {
+        width: 65%;
+       margin: 0 auto;
+    }
+    .Footersubone2 ul {
+        margin: 5px auto;
+        text-align: left;
+        width: 65%;
+    }
+    ul.FootericonList {
+        width: 70%;
+    }
+    ul.FootericonList2 {
+        width: 90%;
+    }
   }

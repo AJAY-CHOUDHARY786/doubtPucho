@@ -16,7 +16,7 @@ const DoubtFooter = () => {
               alt=""
             />
           </div>
-          <div className="Footersubone">
+          <div className="Footersubone1">
             <h5>Quick Links</h5>
             <ul>
               <li>Ask Doubt</li>
@@ -26,7 +26,7 @@ const DoubtFooter = () => {
               <li>Support</li>
             </ul>
           </div>
-          <div className="Footersubone">
+          <div className="Footersubone2">
             <h5>Reach us</h5>
             <ul>
               <li>
