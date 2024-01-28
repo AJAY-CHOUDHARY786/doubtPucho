@@ -2501,7 +2501,7 @@ img.sticky-support-icon {
 .NewCont{
   background-color: transparent;
   background-image: linear-gradient(180deg,#F3ECFF 0,#FFFFFF 100%);
-  padding: 20px 0px;
+  padding: 20px 0px 0px;
   text-align: center;
 }
 .NewDoubtMaincontainer{
@@ -2579,7 +2579,7 @@ button.CapButton{
 }
 .DoubtNextsec{
   background-color: #F8FAFC;
-  padding: 30px 0px !important;
+  padding: 30px 0px 0px !important;
   text-align: center;
 }
 .Doubtsubsec{
@@ -2601,7 +2601,7 @@ width: 70%;
 }
 .cardboxContainer{
   background-color: #F8FAFC;
-  padding: 30px 0px !important;
+  padding: 30px 0px 0px!important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2766,7 +2766,8 @@ width: 33.33%;
 .videoTestimoniols{
     background-color: #F3ECFF;
    
-    padding: 30px 0px;
+    padding: 30px 5px 0px;
+    width: 100%;
 }
 .vidhead {
     width: 50%;
@@ -2896,7 +2897,7 @@ width: 33.33%;
 }
 .LastContainer{
     background-image: url("/1.png");
-    padding: 30px 0px;
+    padding: 30px 5px;
     background-position: center;
     background-size: cover;
   background-repeat: no-repeat;
@@ -2973,7 +2974,7 @@ width: 33.33%;
 
 .WhatMain{
     background-color: #F8FAFC;
-    padding: 30px 0px;
+    padding: 30px 0px 0px;
 }
   .Whatcontainer {
     max-width: 85%;
@@ -3009,7 +3010,7 @@ width: 33.33%;
   }
 /* *****************************process */
 .ProcessContainer {
-    padding: 30px 0px;
+    padding: 30px 0px 0px;
 }
 .ProcessContainer h1{
     text-align: center !important;
@@ -3421,6 +3422,7 @@ ul.FootericonList {
     }
     .last1 h3{
         font-size: 16px;
+        text-align: center;
     }
 .last2 {
     width: 100%;
@@ -3509,6 +3511,6 @@ ul.FootericonList {
         margin-top: 30px;
     }
     .Footersubone img{
-        width: 100%;
+        width: 100% !important;
     }
   }
