@@ -2601,7 +2601,7 @@ width: 70%;
 }
 .cardboxContainer{
   background-color: #F8FAFC;
-  padding: 30px 0px 0px!important;
+  padding: 30px 0px 5px!important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3006,7 +3006,7 @@ width: 33.33%;
     background-color: #55328F;
     color: white;
     border-radius: 10px;
-    margin: 12px;
+    margin: 24px 0px 0px;
   }
 /* *****************************process */
 .ProcessContainer {
@@ -3221,8 +3221,12 @@ ul.FootericonList {
 
 
 @media only screen and (max-width: 768px) {
+    .WhatrightSection button{
+        margin: 12px;
+      }
     .NewDoubtContainer h1{
         font-size: 25px !important;
+        margin: 0px !important;
     }
     .NewCont {
         width: 98%;
@@ -3314,7 +3318,7 @@ ul.FootericonList {
         width: 100%;
     }
     .box1 {
-        margin: 5px auto;
+        margin: 5px auto 0px;
         width: 64%;
         background-color: white;
         border: 1px solid #d5d5d5;
