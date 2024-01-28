@@ -16,6 +16,7 @@ const DoubtFooter = () => {
               alt=""
             />
           </div>
+          <div className="footermain">
           <div className="Footersubone1">
             <h5>Quick Links</h5>
             <ul>
@@ -53,8 +54,10 @@ const DoubtFooter = () => {
               </li>
             </ul>
           </div>
+          </div>
+         
         </div>
-        <div className="Footersubcont">
+        <div className="Footersubcont2">
           <div className="Footericon">
             <ul className="FootericonList">
               <li>
