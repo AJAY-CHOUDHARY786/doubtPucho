@@ -2777,7 +2777,7 @@ width: 33.33%;
 }
 .vidhead p{
    
-    margin-bottom: 20px !important;
+    margin: 20px 10px !important;
 }
 /* *****************************************whats */
 
@@ -3226,7 +3226,7 @@ ul.FootericonList {
       }
     .NewDoubtContainer h1{
         font-size: 25px !important;
-        margin: 0px !important;
+       
     }
     .NewCont {
         width: 98%;
@@ -3357,6 +3357,9 @@ ul.FootericonList {
         text-align: center;
         width: 96%;
         margin: 0 auto;
+    }
+    .cardCont h1{
+        margin: 0px !important;
     }
     .videosubTest {
         flex-direction: column-reverse;
