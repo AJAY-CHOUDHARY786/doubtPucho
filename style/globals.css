@@ -2559,15 +2559,20 @@ button.NewDoubtSubbmit {
   padding: 16px;
 }
 .capicon {
- background-color:  #E3EAF1 !important;
- margin: 0px 0px 16px;
- border-radius: 8px;
- padding: 5px 0px;
+    background-color: #E3EAF1 !important;
+    /* margin: 0px 0px 16px; */
+    border-radius: 8px;
+    width: 60%;
+    padding: 5px 0px;
+    margin: 8px auto;
 
 }
 .Capspan{
   font-size: 12px;
   color: #000000;;
+}
+.Capspan span img{
+    width: 8%;
 }
 button.CapButton{
   padding: 8px 24px;
@@ -3099,7 +3104,16 @@ width: 33.33%;
   .Footersubcont2{
     width: 70%;
     margin:  auto;
-    padding: 30px 0px;
+    padding:  0px;
+    display: flex;
+    border-top: 1px solid #A976FF;
+  }
+  .Footersubcont3{
+    width: 70%;
+    margin:  auto;
+    padding: 5px 0px;
+    justify-content: center;
+    align-items: center;
     display: flex;
     border-top: 1px solid #A976FF;
   }
@@ -3120,8 +3134,16 @@ width: 33.33%;
     color: white;
     font-weight: 700;
   }
-  .Footersubone2 ul {
+  .FootericonList3 {
     color: white;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    margin: 0px;
+    padding: 0px !important;
+  }
+  .Footersubone3 ul{
+    color: white !important;
     text-decoration: none;
     list-style: none;
     text-align: left;
@@ -3145,20 +3167,21 @@ width: 33.33%;
     text-align: left;
     padding: 0px !important;
   }
-  .Footersubcont2 ul {
+  .FootericonList2 {
     color: white;
+    width: 50%;
     text-decoration: none;
     list-style: none;
     text-align: left;
     padding: 0px !important;
-    margin: 10px 0px;
+    margin: 5px 0px;
         justify-content: center  !important;
     
   }
   .FootericonList li {
     display: inline-block;
    
-    width: 33.33%;
+    width: 8%;
     margin: 0px 10px;
 }
 .FootericonList2{
@@ -3169,16 +3192,32 @@ display: flex;
 .FootericonList2 li{
     display: flex;
     margin: 0px 5px;
+    align-items: center;
     
     }
 .Footericon{
     display:flex;;
 }
 ul.FootericonList {
-    width: 36%;
+    width: 50%;
     display: flex;
 }
-
+.FootericonList1{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    padding: 0px !important;
+    margin: 5px 0px;
+    
+}
+.FootericonList1 li {
+    display: inline-block;
+    width: 8%;
+    margin: 0px 10px;
+}
 /* **************************vid-car */
 .carousel-indicators{
     
@@ -3277,7 +3316,9 @@ ul.FootericonList {
         
         width: 100%;
     }
-
+    .Capspan span img {
+        width: 16%;
+    }
     .ProcessSubmain {
         width: 47%;
     }    
@@ -3469,7 +3510,7 @@ ul.FootericonList {
     .Footersubcont2 {
         width: 100%;
         display: inline-block;
-        padding: 30px 0px;
+        padding: 10px 30px;
         text-align: center;
     }
     .Footersubone {
@@ -3483,7 +3524,6 @@ ul.FootericonList {
     }
     .Footericon {
         display: flex;
-        flex-direction: column;
     }
     ul.FootericonList {
         width: 60%;
@@ -3518,7 +3558,7 @@ ul.FootericonList {
         width: 70%;
     }
     ul.FootericonList2 {
-        width: 95%;
+        width: 50%;
         margin: 10px auto;
     }
     .footermain {
@@ -3527,6 +3567,17 @@ ul.FootericonList {
     }
     .Footersubone img{
         width: 100% !important;
+    }
+    .FootericonList1 li {
+        display: inline-block;
+        width: 18%;
+        margin: 0px 5px;
+    }
+    .Footersubcont3 {
+        width: 100%;
+    }    
+    .FootericonList1 {
+        align-items: center;
     }
   }
 

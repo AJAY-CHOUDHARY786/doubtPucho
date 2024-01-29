@@ -59,14 +59,14 @@ const DoubtFooter = () => {
         </div>
         <div className="Footersubcont2">
           <div className="Footericon">
-            <ul className="FootericonList">
+            <ul className="FootericonList1">
               <li>
                 {" "}
                 <img
                   src="/1384060.png
           "
                   alt=""
-                  style={{ width: "48%", }}
+                  style={{ width: "100%", }}
                 />{" "}
               </li>
               <li>
@@ -74,7 +74,7 @@ const DoubtFooter = () => {
                   src="/94409a775c02d7658dd6e7ba88429b63-removebg-preview.png
           "
                   alt=""
-                  style={{ width: "48%" }}
+                  style={{ width: "100%" }}
                 />{" "}
               </li>
               <li>
@@ -82,7 +82,7 @@ const DoubtFooter = () => {
                   src="https://cdn-icons-png.flaticon.com/512/124/124021.png
           "
                   alt=""
-                  style={{ width: "48%" }}
+                  style={{ width: "100%" }}
                 />{" "}
               </li>
               <li>
@@ -90,26 +90,29 @@ const DoubtFooter = () => {
                   src="https://cdn.pixabay.com/photo/2021/02/26/22/36/linkedin-6053397_1280.png
           "
                   alt=""
-                  style={{ width: "48%",  }}
+                  style={{ width: "100%",  }}
                 />{" "}
               </li>
             </ul>
             <ul className="FootericonList2">
               <li>
-             <p><FaRegCopyright />All right reserved to doubt Puch</p>
-              </li>
-              <li>
               <p>Privacy Policy</p>
               </li>
-              <li>
-              <p>Cookie Policy</p>
-              </li>
+           
               <li>
               <p>Terms & Conditions</p>
               </li>
             </ul>
           </div>
         </div>
+        <div className="Footersubcont3">
+        <ul className="FootericonList3">
+              <li>
+             <p><FaRegCopyright />All right reserved to doubt Puch</p>
+              </li>
+         </ul>
+        </div>
+        
       </div>
     </div>
   );

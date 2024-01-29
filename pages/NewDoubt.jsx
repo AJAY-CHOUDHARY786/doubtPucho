@@ -86,10 +86,8 @@ const NewDoubt = () => {
             <h1> Ask Your Questions</h1>
             <div className="capture">
               <div className="capicon">
-               
-                <br />
                 <span className="Capspan">  <span style={{margin:"0px 10px"}}>
-                  <CiCamera />
+                 <img src="/photo-camera-vector-icon-600nw-1345025204__1_-removebg-preview.png" alt=""  />
                 </span>Capture Your Doubt </span>
               </div>
               <button className="CapButton">Submit</button>
