@@ -96,11 +96,11 @@ const DoubtFooter = () => {
             </ul>
             <ul className="FootericonList2">
               <li>
-              <p>Privacy Policy</p>
+              <p>|Privacy Policy|</p>
               </li>
            
               <li>
-              <p>Terms & Conditions</p>
+              <p>|Terms & Conditions|</p>
               </li>
             </ul>
           </div>
@@ -108,7 +108,7 @@ const DoubtFooter = () => {
         <div className="Footersubcont3">
         <ul className="FootericonList3">
               <li>
-             <p><FaRegCopyright />All right reserved to doubt Puch</p>
+             <p><FaRegCopyright />All right reserved to DoubtPuch.in</p>
               </li>
          </ul>
         </div>

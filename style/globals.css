@@ -2524,8 +2524,8 @@ span.Newtext-why-fix {
 .Newtext-animate p{
     margin-top: 15px !important;
 }
-button.NewDoubtSubbmit {
-  background-color: #533190 !important;
+.NewDoubtSubbmit {
+  background-color: orange !important;
   color: white !important;
   padding: 12px 32px !important;
   border: 0px !important;
@@ -2533,6 +2533,9 @@ button.NewDoubtSubbmit {
   font-size: 14px;
   margin: 50px 0px 0px;
 }
+.NewDoubtSubbmit:hover{
+    background-color: #533190  !important;
+  }
 
 .NewDoubtMaincontainers{
   background-color:#55328F;
@@ -2573,14 +2576,20 @@ button.NewDoubtSubbmit {
 }
 .Capspan span img{
     width: 8%;
+    margin-bottom: 5px;
 }
 button.CapButton{
   padding: 8px 24px;
   font-size: 12px;
-  background-color: #55328F;
+  background-color: orange;
   color: white;
   border-radius: 10px;
   border: none;
+  margin-top: 8px;
+
+}
+.CapButton:hover{
+    background-color: #55328F;
 }
 .DoubtNextsec{
   background-color: #F8FAFC;
@@ -2614,6 +2623,7 @@ width: 70%;
 }
 .cardCont {
     text-align: center;
+   
 }
 .cardcont2{
   display: flex;
@@ -2774,7 +2784,7 @@ width: 33.33%;
 .videoTestimoniols{
     background-color: #F3ECFF;
    
-    padding: 30px 5px 0px;
+    padding: 30px 5px 30px;
     width: 100%;
 }
 .vidhead {
@@ -2877,7 +2887,10 @@ width: 33.33%;
     padding: 0px 80px;
     
 }
-
+.vid2 video{
+    border: 5px solid black;
+    border-radius: 20px;
+}
 
 .LastSubcont {
     width: 85%;
@@ -3012,16 +3025,40 @@ width: 33.33%;
     flex: 1;
   }
   .WhatrightSection button{
-    border: 1px solid #55328F;
+    border: 1px solid orange;
     padding: 12px 32px;
-    background-color: #55328F;
+    background-color: orange;
     color: white;
     border-radius: 10px;
     margin: 24px 0px 0px;
   }
+  .WhatrightSection button:hover{
+    background-color:#55328F;
+    border: 1px solid #55328F;
+  }
 /* *****************************process */
 .ProcessContainer {
     padding: 30px 0px 0px;
+}
+.ProcessContainer span{
+    margin: 0px 10px;
+    width: 16%;
+    display: inline-block;
+}
+.ProcessContainer span img{
+    margin: 0px 0px 5px;
+    width: 100%;
+    display: inline-block;
+}
+.WhatrightSection span{
+    margin: 0px 0px;
+    width: 27%;
+    display: inline-block;
+}
+.WhatrightSection span img{
+    margin: 0px 0px 5px;
+    width: 100%;
+    display: inline-block;
 }
 .ProcessContainer h1{
     text-align: center !important;
@@ -3262,7 +3299,11 @@ ul.FootericonList {
     padding: 0px 10px;
 }
 
-
+.itemimagecont h2 {
+    display: inline-block;
+    border-bottom: 1px solid orange;
+    padding-bottom: 4px;
+}
 
 
 
@@ -3317,12 +3358,18 @@ ul.FootericonList {
         width: 100%;
     }
     .Capspan span img {
-        width: 16%;
+        width: 10%;
     }
     .ProcessSubmain {
         width: 47%;
     }    
-
+    .FootericonList2 li {
+        font-size: 1rem;
+        display: flex;
+        margin: 0px 5px;
+        width: 50%;
+        align-items: center;
+    }
 
     .ProcessSubmain {
        
@@ -3385,7 +3432,7 @@ ul.FootericonList {
         font-size: 10px;
     }
     .WhatcontentContainer {
-       
+       flex-direction: column;
         align-items: center;
         margin-top: 20px;
     }
@@ -3403,14 +3450,14 @@ ul.FootericonList {
 
     .cardCont {
         text-align: center;
-        width: 96%;
+        width: 70%;
         margin: 0 auto;
     }
     .cardCont h1{
         margin: 0px !important;
     }
     .videosubTest {
-        flex-direction: column-reverse;
+        flex-direction: column;
         flex-wrap: wrap;
         display: flex;
         justify-content: center;
@@ -3418,11 +3465,13 @@ ul.FootericonList {
         align-items: center;
         margin: 0 auto;
     }
-
+    .vidhead h1 {
+        margin-bottom: 5px;
+    }
     
 
     .vid1 {
-        width: 90%;
+        width: 100%;
         padding: 0px 0px;
         text-align: center;
     }
@@ -3435,8 +3484,12 @@ ul.FootericonList {
         
     }
     .Whatcontainer {
-        max-width: 98%;
+        max-width: 86%;
         margin: 0 auto;
+    }
+    .WhatrightSection {
+        flex: 1 1;
+        text-align: center;
     }
     .WhatrightSection p{
         font-size: 10px;
@@ -3449,7 +3502,7 @@ ul.FootericonList {
     }
     .WhatrightSection button{
         font-size: 10px;
-        padding: 12px 12px;
+        /* padding: 12px 12px; */
     }
     .WhatleftSection img{
        width: 100%;
@@ -3579,6 +3632,15 @@ ul.FootericonList {
     .FootericonList1 {
         align-items: center;
     }
+    .ProcessContainer span {
+        margin: 0px 10px;
+        width: 9rem;
+        display: inline-block;
+    }
+    .WhatrightSection span {
+       
+        width: 9rem;
+    }    
   }
 
 

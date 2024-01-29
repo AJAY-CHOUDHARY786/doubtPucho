@@ -35,7 +35,7 @@ const TestimoniolCarousel = () => {
             </div>
             <div className="itemimagecont">
              
-              <h2> Ajay </h2>
+              <h2> AJAY CHOUDHARY </h2>
               <h3>Jee</h3>
             
               <p> Lorem, ipsum fhhhhhh hhgisrh fhfvnje rhjdrgih dfgvns jfnvsf viudjf bndg bhvd of jbod

@@ -86,9 +86,9 @@ const NewDoubt = () => {
             <h1> Ask Your Questions</h1>
             <div className="capture">
               <div className="capicon">
-                <span className="Capspan">  <span style={{margin:"0px 10px"}}>
+                <div className="Capspan">  <span style={{margin:"0px 10px"}}>
                  <img src="/photo-camera-vector-icon-600nw-1345025204__1_-removebg-preview.png" alt=""  />
-                </span>Capture Your Doubt </span>
+                </span>Capture Your Doubt </div>
               </div>
               <button className="CapButton">Submit</button>
             </div>
@@ -97,7 +97,9 @@ const NewDoubt = () => {
 
         <section>
           <div className="ProcessContainer">
-            <h1> Process of Coachify </h1>
+            <h1>Steps for Asking a Doubt on <span style={{margin:"0px 10px"}}>
+                 <img src="/DOUBTPUCHO LOGO 1 (3).png" alt=""  />
+                </span></h1>
             
             <div className="ProcessSubContainer">
               <div className="ProcessSubmain1">
@@ -105,9 +107,7 @@ const NewDoubt = () => {
                 <div className="ProcessPara1">
                 <h3>Step 1</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur. Ultricies vitae
-                    congue sed pellentesque id ultrices. Vitae venenatis nulla
-                    lacinia at massa.
+                <span style={{fontWeight:"700"}}>Capture:</span> Snap a photo of your doubt using DoubtPucho's user-friendly interface.
                   </p>
                  
              
@@ -135,10 +135,8 @@ const NewDoubt = () => {
               <div className="ProcessSubmain1">
                 <div className="ProcessPara1">
                 <h3>Step 2</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur. Ultricies vitae
-                    congue sed pellentesque id ultrices. Vitae venenatis nulla
-                    lacinia at massa.
+                <p>
+                <span style={{fontWeight:"700"}}>Upload:</span> Effortlessly upload the image to the platform for quick assistance.
                   </p>
                 </div>
                 <div className="ProcessSubmain">
@@ -163,10 +161,8 @@ const NewDoubt = () => {
               <div className="ProcessSubmain1">
                 <div className="ProcessPara1">
                 <h3>Step 3</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur. Ultricies vitae
-                    congue sed pellentesque id ultrices. Vitae venenatis nulla
-                    lacinia at massa.
+                <p>
+                <span style={{fontWeight:"700"}}>Submit:</span> Receive timely and accurate solutions from our expert team to conquer your academic challenges.
                   </p>
                 </div>
                 <div className="ProcessSubmain">
@@ -296,7 +292,7 @@ const NewDoubt = () => {
         <section className="WhatMain">
           <div className="Whatcontainer">
             {/* Heading */}
-            <h1>Whatever the homework problem, We have a solution:</h1>
+            <h1>No matter the question, DoubtPucho's got your back!</h1>
 
             {/* Main content container */}
             <div className="WhatcontentContainer">
@@ -307,14 +303,14 @@ const NewDoubt = () => {
 
               {/* Right section with subheading, paragraph, and button */}
               <div className="WhatrightSection">
-                <h2>Subheading</h2>
+                <h3>Get Help Anytime, Anywhere with <span >
+                 <img src="/DOUBTPUCHO LOGO 1 (3).png" alt=""/>
+                </span>!</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur. Ultricies vitae congue
-                  sed pellentesque id ultrices. Vitae venenatis nulla lacinia at
-                  massa. Lobortis viverra est adipiscing dolor pharetra
-                  vulputate elementum. Non volutpat aenean nec ipsum.
+                DoubtPucho is your go-to platform for quick and reliable solutions to all your academic queries. Whether you're struggling with math, science, languages, or any other subject, DoubtPucho has your back! Our user-friendly interface allows you to snap a picture of your question anytime, anywhere, and our team of expert tutors will provide you with clear, concise explanations in no time. 
+                Say goodbye to homework stress and hello to hassle-free learning.
                 </p>
-                <button>Explore Coachify</button>
+                <button>Explore</button>
               </div>
             </div>
           </div>
@@ -323,16 +319,16 @@ const NewDoubt = () => {
         <section>
           <div className="videoTestimoniols">
             <div className="vidhead">
-              <h1>
-                What Students Says to
-                <span style={{ color: "#55328F" }}> Coachify</span>
-              </h1>
+             
             </div>
             <div className="videosubTest">
               <div className="vid1">
                 {" "}
-                <p>Success Story</p>
-                <h1>
+                <h3>
+                What Students Says
+                <span style={{ color: "#55328F" }}> About us!</span>
+              </h3>
+                <h4>
                   {" "}
                   <span style={{ color: "#55328F" }}>Love</span> and
                   <span style={{ color: "#55328F" }}>
@@ -340,7 +336,7 @@ const NewDoubt = () => {
                     Share experience
                   </span>{" "}
                   with us
-                </h1>
+                </h4>
               </div>
 
               <div className="vid2">
