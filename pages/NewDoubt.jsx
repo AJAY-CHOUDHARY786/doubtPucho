@@ -4,6 +4,7 @@ import DoubtFooter from "../component/DoubtFooter";
 import TeacherCrausal from "../component/TeacherCrausal";
 import VideoCarousel from "../component/VideoCarousel";
 import TestimoniolCarousel from "../component/TestimoniolCarousel";
+import Header from "../component/header";
 // *******************************************Animated-text*******************************
 const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
 
@@ -54,6 +55,7 @@ const NewDoubt = () => {
 
   return (
     <div>
+     
       <div className="NewDoubtContainer">
         <div className="NewCont">
           <div className="NewDoubtMaincontainer">
