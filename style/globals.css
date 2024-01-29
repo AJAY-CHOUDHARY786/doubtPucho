@@ -3235,7 +3235,7 @@ ul.FootericonList {
     
     .NewDoubtContainer {
         width: 100% !important;
-        font-weight: 700;
+        /* font-weight: 700; */
        
     }
     span.Newblinking-cursor {
