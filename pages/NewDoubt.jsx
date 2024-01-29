@@ -66,10 +66,6 @@ const NewDoubt = () => {
                 </span>
                 <span ref={textNode} id="type-text"></span>
                 <span className="Newblinking-cursor">|</span>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Itaque repellendus dolore q
-                </p>
               </div>
               <button className="NewDoubtSubbmit">Ask Doubt </button>
             </div>
@@ -197,11 +193,6 @@ const NewDoubt = () => {
           <div className="DoubtNextsec">
             <div className="Doubtsubsec">
               <h1>Your Doubt Solving Expert</h1>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Expedita rem at nulla suscipit. Sed assumenda nulla dolorem
-                facilis! Aut, perferendis.
-              </p>
             </div>
             {/* ***********************car***************** */}
             <div className="DubtsecTeacher">
@@ -338,11 +329,6 @@ const NewDoubt = () => {
                 What Students Says to
                 <span style={{ color: "#55328F" }}> Coachify</span>
               </h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Integer eget proin et
-                nisi tellus. At sed iaculis orci felis ullamcorper dolor id
-                auctor nullam. Placerat nisl commodo ris.
-              </p>
             </div>
             <div className="videosubTest">
               <div className="vid1">

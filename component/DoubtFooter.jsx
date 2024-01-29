@@ -12,7 +12,7 @@ const DoubtFooter = () => {
           <div className="Footersubone">
             <img
               style={{ width: "80%" }}
-              src="./DOUBTPUCHO LOGO 1.jpg"
+              src="./DOUBTPUCHO LOGO 1 (3) (1).png"
               alt=""
             />
           </div>
@@ -96,7 +96,7 @@ const DoubtFooter = () => {
             </ul>
             <ul className="FootericonList2">
               <li>
-             <p><FaRegCopyright />All right reserver to doubt Puch</p>
+             <p><FaRegCopyright />All right reserved to doubt Puch</p>
               </li>
               <li>
               <p>Privacy Policy</p>
