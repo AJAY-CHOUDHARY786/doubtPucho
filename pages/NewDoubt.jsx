@@ -256,12 +256,12 @@ const NewDoubt = () => {
               <div className="box1">
                 <span>
                   <img
-                    src="/WhatsApp Image 2024-01-22 at 12.58.39 PM.jpeg"
+                    src="/clock-removebg-preview.png"
                     alt=""
                     style={{
                       width: "60%",
                       borderRadius: "120px",
-                      marginBottom: "24px",
+                      marginBottom: "12px",
                     }}
                   />
                 </span>
@@ -271,32 +271,32 @@ const NewDoubt = () => {
               <div className="box1">
                 <span>
                   <img
-                    src="/WhatsApp Image 2024-01-22 at 1.01.23 PM.jpeg"
+                    src="/Graduation-Cap-Flat-icon-removebg-preview.png"
                     alt=""
                     style={{
                       width: "60%",
                       borderRadius: "120px",
-                      marginBottom: "24px",
+                      marginBottom: "12px",
                     }}
                   />
                 </span>
-                <h5>Quick Resolution</h5>
-                <p>Get your video solution within an hour </p>
+                <h5>Personalized Learning</h5>
+                <p>Understand concepts through custom-tailored explanations.</p>
               </div>
               <div className="box1">
                 <span>
                   <img
-                    src="/WhatsApp Image 2024-01-22 at 12.59.47 PM.jpeg"
+                    src="/Mobile-Phone-3d-icon-removebg-preview.png"
                     alt=""
                     style={{
                       width: "60%",
                       borderRadius: "120px",
-                      marginBottom: "24px",
+                      marginBottom: "12px",
                     }}
                   />
                 </span>
-                <h5>Quick Resolution</h5>
-                <p>Get your video solution within an hour </p>
+                <h5>Effortless Process</h5>
+                <p>Simply snap, submit, and learn!</p>
               </div>
             </div>
           </div>
