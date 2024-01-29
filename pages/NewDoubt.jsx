@@ -62,7 +62,7 @@ const NewDoubt = () => {
             <div className="NewContainerOne">
               <div className="Newtext-animate">
                 <span className="Newtext-why-fix">
-                  DoubtPucho: <br />
+                  <img src="./DOUBTPUCHO LOGO 1 (3).png" alt="" /> <br />
                 </span>
                 <span ref={textNode} id="type-text"></span>
                 <span className="Newblinking-cursor">|</span>
@@ -86,11 +86,11 @@ const NewDoubt = () => {
             <h1> Ask Your Questions</h1>
             <div className="capture">
               <div className="capicon">
-                <span>
-                  <CiCamera />
-                </span>{" "}
+               
                 <br />
-                <span className="Capspan">Capture Your Doubt </span>
+                <span className="Capspan">  <span style={{margin:"0px 10px"}}>
+                  <CiCamera />
+                </span>Capture Your Doubt </span>
               </div>
               <button className="CapButton">Submit</button>
             </div>
