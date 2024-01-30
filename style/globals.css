@@ -3045,6 +3045,9 @@ width: 33.33%;
 .ProcessContainer {
     padding: 30px 0px 0px;
 }
+span.ProcessContainerImage {
+    width: 16%;
+}
 .ProcessContainer span{
     margin: 0px 10px;
 
