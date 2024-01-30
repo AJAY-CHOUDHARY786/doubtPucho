@@ -42,7 +42,7 @@ const DoubtFooter = () => {
                 <span style={{ margin: "0px 10px 0px -26px" }}>
                   <IoMailOpenOutline />
                 </span>
-                About us
+                contact@coachifylive.com
               </li>
               <li>
                 {" "}
