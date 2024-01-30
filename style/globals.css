@@ -2495,7 +2495,7 @@ img.sticky-support-icon {
 .NewDoubtContainer{
   box-sizing: border-box;
  
-  width: 100% !important;
+  width: 1500px;
     margin: 0 auto;
 }
 .NewCont{
@@ -2630,6 +2630,7 @@ width: 70%;
   margin: 0 auto;
   width: 70%;
 }
+
 span#type-text {
   color: #533190;
   font-size: 2rem;
@@ -2738,6 +2739,10 @@ span.Newblinking-cursor {
 
 width: 33.33%;
  margin: 20px 20px 0px;
+ /* background-image: url("/pattern.png"); */
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
  background-color: white;
  border: 1px solid #d5d5d5;
  padding: 24px;
@@ -3042,7 +3047,7 @@ width: 33.33%;
 }
 .ProcessContainer span{
     margin: 0px 10px;
-    width: 16%;
+
     display: inline-block;
 }
 .ProcessContainer span img{
@@ -3050,7 +3055,7 @@ width: 33.33%;
     width: 100%;
     display: inline-block;
 }
-.WhatrightSection span{
+.WhatrightSection .ImageSpan{
     margin: 0px 0px;
     width: 27%;
     display: inline-block;
@@ -3321,12 +3326,12 @@ ul.FootericonList {
     }
     
     .NewDoubtContainer {
-        width: 100% !important;
+           width: 100% !important;
         /* font-weight: 700; */
        
     }
     span.Newblinking-cursor {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .NewDoubtMaincontainer {
         flex-direction: column;
@@ -3344,7 +3349,7 @@ ul.FootericonList {
     }
     
     span#type-text {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     button.NewDoubtSubbmit {
         margin: 20px;
@@ -3384,7 +3389,7 @@ ul.FootericonList {
     }
     .ProcessSubmain1 {
         width: 100%;
-        flex-wrap: wrap;
+       
         flex-direction: column-reverse;
     }
     .ProcessSubmain{
@@ -3632,9 +3637,9 @@ ul.FootericonList {
     .FootericonList1 {
         align-items: center;
     }
-    .ProcessContainer span {
+    .ProcessContainerImage{
         margin: 0px 10px;
-        width: 9rem;
+        width: 9rem !important;
         display: inline-block;
     }
     .WhatrightSection span {
@@ -3648,3 +3653,64 @@ ul.FootericonList {
   .Newtext-why-fix img{
     width: 50%;
   }
+  @media screen and (min-device-width: 769px) and (max-device-width: 1440px) { 
+    
+.NewDoubtContainer{
+    width: 100% !important;
+}
+.ProcessContainer span {
+    margin: 0px 10px;
+    display: inline-block;
+}
+.ProcessContainerImage {
+    margin: 0px 10px;
+    width: 12rem !important;
+    display: inline-block;
+}
+.ProcessContainer span img {
+    margin: 0px 0px 5px;
+    width: 100%;
+    display: inline-block;
+}
+.ProcessSubContainer {
+    width: 100%;
+}
+.cardcont2 {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+.WhatleftSection img{
+    width: 100%;
+}
+.vid1 {
+  
+    padding: 0px 0px;
+   
+}
+.vid2 {
+  
+    padding: 0px 0px;
+   
+}
+.Item1 {
+    width: 96%;
+}
+.last1 {
+    width: 50%;
+    margin: 40px 8px;
+    color: white;
+    text-align: left;
+}
+.last2 button {
+    margin: 0px 2px;
+    padding: 6px;
+}
+.footermain {
+    display: flex;
+    width: 100%;
+}
+.Footersubone {
+    width: 50%;
+}
+}

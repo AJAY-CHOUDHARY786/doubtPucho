@@ -4,51 +4,12 @@ import DoubtFooter from "../component/DoubtFooter";
 import TeacherCrausal from "../component/TeacherCrausal";
 import VideoCarousel from "../component/VideoCarousel";
 import TestimoniolCarousel from "../component/TestimoniolCarousel";
-import Header from "../component/header";
+import TypingAnimation from "../component/TypingAnimation";
 // *******************************************Animated-text*******************************
-const sleep = (time) => new Promise((resolve) => setTimeout(resolve, time));
 
 // ******************************************************atext******
 const NewDoubt = () => {
-  const textNode = useRef(null);
-  // const [tagline, setTagline] = useState([])
-  const type = async (text) => {
-    for (let character of text) {
-      if (textNode.current) {
-        textNode.current.innerText += character;
-        await sleep(100); // Adjust the delay as needed
-      }
-    }
-  };
-
-  const deleteText = async (text) => {
-    for (let character of text) {
-      if (textNode.current) {
-        textNode.current.innerText = textNode.current.innerText.slice(
-          0,
-          textNode.current.innerText.length - 1
-        );
-        await sleep(100); // Adjust the delay as needed
-      }
-    }
-  };
-  useEffect(() => {
-    // getTagline()
-    animate();
-  }, []);
-
-  const animate = async () => {
-    await sleep(1000);
-    textNode.current.innerText = "";
-    // await waitForVal();
-
-    while (true) {
-      await type('"Ab Kaho No Doubt!"');
-      await sleep(1000);
-      await deleteText('"Ab Kaho No Doubt!"');
-    }
-  };
-
+  
   // ******************************************Animate**************************
 
   // *************************video-car*****
@@ -64,8 +25,7 @@ const NewDoubt = () => {
                 <span className="Newtext-why-fix">
                   <img src="./DOUBTPUCHO LOGO 1 (3).png" alt="" /> <br />
                 </span>
-                <span ref={textNode} id="type-text"></span>
-                <span className="Newblinking-cursor">|</span>
+                <TypingAnimation  text='"Ab Kaho No Doubt!"' />
               </div>
               <button className="NewDoubtSubbmit">Ask Doubt </button>
             </div>
@@ -97,7 +57,7 @@ const NewDoubt = () => {
 
         <section>
           <div className="ProcessContainer">
-            <h1>Steps for Asking a Doubt on <span style={{margin:"0px 10px"}}>
+            <h1>Steps for Asking a Doubt on <span className="ProcessContainerImage" style={{margin:"0px 10px"}}>
                  <img src="/DOUBTPUCHO LOGO 1 (3).png" alt=""  />
                 </span></h1>
             
@@ -107,7 +67,7 @@ const NewDoubt = () => {
                 <div className="ProcessPara1">
                 <h3>Step 1</h3>
                 <p>
-                <span style={{fontWeight:"700"}}>Capture:</span> Snap a photo of your doubt using DoubtPucho's user-friendly interface.
+                <span  style={{fontWeight:"700"}}>Capture:</span> Snap a photo of your doubt using DoubtPucho's user-friendly interface.
                   </p>
                  
              
@@ -243,7 +203,7 @@ const NewDoubt = () => {
               <div className="box1">
                 <span>
                   <img
-                    src="/clock-removebg-preview.png"
+                    src="/11663460_20944447-removebg-preview.png"
                     alt=""
                     style={{
                       width: "60%",
@@ -258,7 +218,7 @@ const NewDoubt = () => {
               <div className="box1">
                 <span>
                   <img
-                    src="/Graduation-Cap-Flat-icon-removebg-preview.png"
+                    src="/12953423_isometric_60-removebg-preview.png"
                     alt=""
                     style={{
                       width: "60%",
@@ -273,11 +233,11 @@ const NewDoubt = () => {
               <div className="box1">
                 <span>
                   <img
-                    src="/Mobile-Phone-3d-icon-removebg-preview.png"
+                    src="/11434267_4710037-removebg-preview.png"
                     alt=""
                     style={{
                       width: "60%",
-                      borderRadius: "120px",
+                      borderRadius: "12px",
                       marginBottom: "12px",
                     }}
                   />
@@ -303,9 +263,9 @@ const NewDoubt = () => {
 
               {/* Right section with subheading, paragraph, and button */}
               <div className="WhatrightSection">
-                <h3>Get Help Anytime, Anywhere with <span >
+                <h3>Get Help <TypingAnimation text ="Anytime , Anywhere"/> with <span className="ImageSpan" >
                  <img src="/DOUBTPUCHO LOGO 1 (3).png" alt=""/>
-                </span>!</h3>
+                </span>!</h3> 
                 <p>
                 DoubtPucho is your go-to platform for quick and reliable solutions to all your academic queries. Whether you're struggling with math, science, languages, or any other subject, DoubtPucho has your back! Our user-friendly interface allows you to snap a picture of your question anytime, anywhere, and our team of expert tutors will provide you with clear, concise explanations in no time. 
                 Say goodbye to homework stress and hello to hassle-free learning.
