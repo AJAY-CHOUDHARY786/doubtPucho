@@ -35,7 +35,7 @@ const NewDoubt = () => {
                 {" "}
                 {/* <ImageCarousel images={imagesArray} /> */}
                 <video controls width="95%" style={{ borderRadius: "24px" }}>
-                  <source src="https://www.youtube.com/" type="video/mp4" />
+                  <source src="https://www.youtube.com/watch?v=d8A8JmAImc4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>
