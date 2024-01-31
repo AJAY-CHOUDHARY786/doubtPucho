@@ -67,7 +67,7 @@ const NewDoubt = () => {
                 <div className="ProcessPara1">
                 <h3>Step 1</h3>
                 <p>
-                <span  style={{fontWeight:"700"}}>Capture:</span> Snap a photo of your doubt using DoubtPucho's user-friendly interface.
+                <span  style={{fontWeight:"700"}}>Capture:</span> Snap a photo of your doubt using DoubtPucho&rsquo;s user-friendly interface.
                   </p>
                  
              
@@ -252,7 +252,7 @@ const NewDoubt = () => {
         <section className="WhatMain">
           <div className="Whatcontainer">
             {/* Heading */}
-            <h1>No matter the question, DoubtPucho's got your back!</h1>
+            <h1>No matter the question, DoubtPucho&rsquo;s got your back!</h1>
 
             {/* Main content container */}
             <div className="WhatcontentContainer">
@@ -267,7 +267,7 @@ const NewDoubt = () => {
                  <img src="/DOUBTPUCHO LOGO 1 (3).png" alt=""/>
                 </span>!</h3> 
                 <p>
-                DoubtPucho is your go-to platform for quick and reliable solutions to all your academic queries. Whether you're struggling with math, science, languages, or any other subject, DoubtPucho has your back! Our user-friendly interface allows you to snap a picture of your question anytime, anywhere, and our team of expert tutors will provide you with clear, concise explanations in no time. 
+                DoubtPucho is your go-to platform for quick and reliable solutions to all your academic queries. Whether you&rsquo;re struggling with math, science, languages, or any other subject, DoubtPucho has your back! Our user-friendly interface allows you to snap a picture of your question anytime, anywhere, and our team of expert tutors will provide you with clear, concise explanations in no time. 
                 Say goodbye to homework stress and hello to hassle-free learning.
                 </p>
                 <button>Explore</button>
