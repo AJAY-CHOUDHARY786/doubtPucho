@@ -79,7 +79,7 @@ const DoubtFooter = () => {
               </li>
               <li>
                 <img
-                  src="https://cdn-icons-png.flaticon.com/512/124/124021.png
+                  src="Telegram_logo.png
           "
                   alt=""
                   style={{ width: "100%" }}
@@ -100,7 +100,7 @@ const DoubtFooter = () => {
               </li>
            
               <li>
-              <p>Terms & Conditions|</p>
+              <p> Terms & Conditions|</p>
               </li>
             </ul>
           </div>
