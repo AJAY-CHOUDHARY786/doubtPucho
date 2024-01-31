@@ -42,7 +42,7 @@ const DoubtFooter = () => {
                 <span style={{ margin: "0px 10px 0px -26px" }}>
                   <IoMailOpenOutline />
                 </span>
-                contact@coachifylive.com
+                 <a className = "MailClass" href="mailto:contact@coachifylive.com?subject=Hello&body=This%20is%20the%20body%20of%20the%20email.">contact@coachifylive.com</a>
               </li>
               <li>
                 {" "}
@@ -96,11 +96,11 @@ const DoubtFooter = () => {
             </ul>
             <ul className="FootericonList2">
               <li>
-              <p>|Privacy Policy|</p>
+              <p>Privacy Policy|</p>
               </li>
            
               <li>
-              <p>|Terms & Conditions|</p>
+              <p>Terms & Conditions|</p>
               </li>
             </ul>
           </div>

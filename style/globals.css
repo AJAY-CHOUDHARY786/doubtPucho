@@ -3136,6 +3136,10 @@ span.ProcessContainerImage {
 
 
   /* *************************footer */
+  .MailClass{
+    text-decoration: none;
+    color: white;
+  }
   .FooterContainer{
     background-color: #431590;
   }
