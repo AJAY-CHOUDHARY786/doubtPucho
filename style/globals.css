@@ -2593,7 +2593,7 @@ button.CapButton{
 }
 .DoubtNextsec{
   background-color: #F8FAFC;
-  padding: 30px 0px 0px !important;
+  padding: 30px 0px 20px !important;
   text-align: center;
 }
 .Doubtsubsec{
@@ -2615,7 +2615,7 @@ width: 70%;
 }
 .cardboxContainer{
   background-color: #F8FAFC;
-  padding: 30px 0px 5px!important;
+  padding: 30px 0px 20px!important;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2748,6 +2748,7 @@ width: 33.33%;
  padding: 24px;
  border-radius: 16px;
  text-align: center;
+
 }
 /* *********************************icon css****** */
 
@@ -3043,13 +3044,13 @@ width: 33.33%;
   }
 /* *****************************process */
 .ProcessContainer {
-    padding: 30px 0px 0px;
+    padding: 30px 0px 10px;
 }
 span.ProcessContainerImage {
     width: 16%;
 }
 .ProcessContainer span{
-    margin: 0px 10px;
+    margin: 0px 0px;
 
     display: inline-block;
 }
@@ -3268,6 +3269,10 @@ ul.FootericonList {
     
     color: #1b1919;
 }
+.FootericonList3 a{
+    text-decoration: none;
+    color: white;
+}
 
 /* testcar****************************** */
 .Item1 {
@@ -3290,7 +3295,7 @@ ul.FootericonList {
     margin-bottom: 20px;
 }
 .testimoniols {
-    padding: 30px 0px;
+    padding: 30px 0px 20px;
 }
 .TestiMainCont {
     width: 90%;

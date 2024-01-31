@@ -108,7 +108,7 @@ const DoubtFooter = () => {
         <div className="Footersubcont3">
         <ul className="FootericonList3">
               <li>
-             <p><FaRegCopyright />All right reserved to DoubtPuch.in</p>
+             <p><FaRegCopyright />All right reserved to DoubtPuch.in<a href="https://digitalwhopper.com/"> | Designed &amp; Developed  by Digital Whopper</a></p>
               </li>
          </ul>
         </div>
