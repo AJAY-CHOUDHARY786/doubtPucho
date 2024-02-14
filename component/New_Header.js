@@ -1,18 +1,12 @@
-import React from 'react'
+import Link from 'next/link'
+import React,{useState} from 'react'
+import { useRouter } from 'next/router'
+import styles from "../style/Header.module.css";
 
 const New_Header = () => {
-    const [isListVisible, setListVisible] = useState(false);
+  const [isListVisible, setListVisible] = useState(false);
   const router=useRouter()
-  const [login, setLogin] = useState('')
-  useEffect(() => {
-    const data=localStorage.getItem("stu");
-    if (data) {
-      const auth = typeof data === 'string' ? JSON.parse(data) : data;       
-      if(auth?.user.user===true){
-        setLogin("login")
-      }
-    }
-  }, [])
+
   const handleLogout=()=>{
     localStorage.removeItem("stu");
     window.location.reload()
@@ -27,6 +21,12 @@ const New_Header = () => {
   const handleTransitionClick = () => {
     setSubToggle(!subToggle); 
   };
+
+  
+
+
+
+ 
   return (
     <header className={styles.header}>
     <div className={styles.hamburgerIcon}>
@@ -99,12 +99,12 @@ const New_Header = () => {
     {/* <span className="call-us-hyperlink">
     <a href="tel:8306056876">Call Us +918306056876</a>
     </span> */}
-      {!login &&<Link href='#' className="btn  login-btn" >
+      <Link href='#' className="btn  login-btn" >
           Login/Register
-        </Link>}
-        {login &&<button onClick={handleLogout} className="btn  login-btn " >
+        </Link>
+       <button onClick={handleLogout} className="btn  login-btn " >
           Logout
-        </button>}
+        </button>
     </div>
   </header>
   )
