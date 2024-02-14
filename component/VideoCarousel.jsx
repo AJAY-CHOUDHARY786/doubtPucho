@@ -6,24 +6,41 @@ import HoverVideoPlayer from 'react-hover-video-player';
 const VideoCarousel = () => {
 const videoTesti= [
   {
-    "_id": "65913cf38f0e286dd7188d5e",
-    "name": "testi11",
+    "_id": "65b39258a6aefe083ac97848",
+    "name": "Bhavya",
     "course": "clat",
     "type": "video",
-    "videoUrl": "https://res.cloudinary.com/duils7z7r/video/upload/v1704017140/ogjf7pmswfwwu5jg0t3q.mp4",
-    "videoPublicId": "ogjf7pmswfwwu5jg0t3q",
-    "__v": 0
+    "videoUrl": "https://coachifylive-website.s3.ap-southeast-2.amazonaws.com/testi4.mp4",
+    "videoPublicId": "sd9painfm373vgogjt8q",
+    "__v": 0
   },
-    {
-      "_id": "65913d388f0e286dd7188d60",
-      "name": "Mohit Jhori ",
-      "course": "cat",
-      "type": "video",
-      "videoUrl": "https://res.cloudinary.com/duils7z7r/video/upload/v1704017210/bizxt1xvvvdvp2wajmme.mp4",
-      "videoPublicId": "bizxt1xvvvdvp2wajmme",
-      "__v": 0
-    }
-    
+  {
+    "_id": "65b38694a6aefe083ac9775f",
+    "name": "Hansika",
+    "course": "cat",
+    "type": "video",
+    "videoUrl": "https://coachifylive-website.s3.ap-southeast-2.amazonaws.com/testi1.mp4",
+    "videoPublicId": "rv2gt82mff1eujsnhwae",
+    "__v": 0
+  },
+  {
+    "_id": "65b2372ecb1d3a74e47224c5",
+    "name": "Khushi",
+    "course": "clat",
+    "type": "video",
+    "videoUrl": "https://coachifylive-website.s3.ap-southeast-2.amazonaws.com/testi3.mp4",
+    "videoPublicId": "j4zdsjoy7mgzitx42xpq",
+    "__v": 0
+  },
+  {
+    "_id": "65913d388f0e286dd7188d60",
+    "name": "Mohit Jhori ",
+    "course": "cat",
+    "type": "video",
+    "videoUrl": "https://coachifylive-website.s3.ap-southeast-2.amazonaws.com/testi2.mp4",
+    "videoPublicId": "bizxt1xvvvdvp2wajmme",
+    "__v": 0
+  }
  
   ]
   

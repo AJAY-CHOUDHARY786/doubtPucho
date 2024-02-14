@@ -3,63 +3,53 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 const TeacherCrausal = () => {
   const teachers=[
+   
     {
-      "_id": "657d53d71e5d298efb177a16",
+      "_id": "65b40380a5e6e0fd4aff7f8f",
       "name": "Mohit Sir",
-      "education": "QA and DILR Mentor ",
-      "top_in_cat": "top_in_cat",
-      "top_in_clat": "top_in_clat",
-      "top_in_cuet": "top_in_cuet",
-      "top_in_ipmat": "top_in_ipmat",
-      "top_in_nift": "nift",
-      "url": "https://res.cloudinary.com/duils7z7r/image/upload/v1704823278/vljeh5cwxyhtywbqqjzo.png",
-      "publicid": "vljeh5cwxyhtywbqqjzo",
-      "__v": 0,
-      "about": "Meet the founder and director of Coachify, with a B.Tech. and MBA. With 8 years in the education industry, this leader has guided 5000+ students so far. Also a talented singer, he brings together education, entrepreneurship, and art, creating success.",
-      "alumni": "Alumni - MNIT Jaipur"
+      "education": "QA and DILR Mentor",
+      "alumni": "Alumni - MNIT Jaipur",
+      "about": "Meet the Founder & Director of Coachify, with  a B.Tech and MBA. With 8 years in Education Industry, this leader has guided 5000+ students so far. Also a talented singer, he brings together education, entrepreneurship, and art, creating successes.",
+      "top_in": "cat-2024-democlasses",
+      "url": "https://coachifylive-website.s3.ap-southeast-2.amazonaws.com/CAT+Top+Educators-01.png",
+      "publicid": "er9oqiekio5dxtvq1kxr",
+      "__v": 0
     },
+    
     {
-      "_id": "6585853641ad34c32875976a",
-      "name": "Mulayam Sir",
-      "education": "QA Mentor  ",
-      "about": "Meet Mulayam Sir—QA mentor and heart-driven teacher, B.Sc. in Mathematics Honours and M.Sc. in Mathematics from IIT Madras. A former Virtusa data scientist, he's a student sensation dedicated to crafting impactful careers. Join his inspiring journey!",
-      "top_in_cat": "top_in_cat",
-      "top_in_clat": "top_in_clat",
-      "top_in_cuet": "top_in_cuet",
-      "top_in_ipmat": "top_in_ipmat",
-      "url": "https://res.cloudinary.com/duils7z7r/image/upload/v1704823475/kjy8od2mkk8z5xi0gom2.png",
-      "publicid": "kjy8od2mkk8z5xi0gom2",
-      "__v": 0,
-      "alumni": "Alumni - IIT Madras"
-    },
-    {
-      "_id": "6585824041ad34c328759758",
+      "_id": "65b4079aa5e6e0fd4aff8013",
       "name": "Saurabh Sir",
-      "education": "DILR Mentor ",
-      "top_in_cat": "top_in_cat",
-      "top_in_clat": "top_in_clat",
-      "top_in_cuet": "top_in_cuet",
-      "top_in_ipmat": "top_in_ipmat",
-      "url": "https://res.cloudinary.com/duils7z7r/image/upload/v1704823316/p5b1atidv9tbxcrfxgem.png",
-      "publicid": "p5b1atidv9tbxcrfxgem",
-      "__v": 0,
-      "about": "Meet Coachify's Partner and Director, a B.Tech. holder honored by the President of India. Recognized for DILR excellence, he leverages a distinguished background from Maruti Suzuki and TrucksDekho. He seamlessly blends engineering prowess, corporate expertise, and strategic acumen in every venture.",
-      "alumni": " Alumni - MNIT Jaipur"
+      "education": "DILR Mentor",
+      "alumni": "Alumni - MNIT Jaipur",
+      "about": "Meet Coachify's Partner & Director, a B.Tech holder honored by the President of India. Recognized for DILR excellence, he leverages a distinguished background from Maruti Suzuki and TrucksDekho. He seamlessly blends engineering prowess, corporate expertise, and strategic acumen in every venture.",
+      "top_in": "cat-2024-democlasses",
+      "url": "https://coachifylive-website.s3.ap-southeast-2.amazonaws.com/CAT+Top+Educators-02.png",
+      "publicid": "neumr6ddobzo21ag5gwq",
+      "__v": 0
     },
+   
     {
-      "_id": "658584a041ad34c328759767",
+      "_id": "65b40dd9a5e6e0fd4aff8056",
       "name": "Stuti Ma'am",
-      "education": "DILR Mentor ",
-      "about": "Stuti Ma'am, a DILR expert mentor, holds a B.Tech. and an MBA in Marketing and Strategy from IIM Rohtak. With a background in sales and marketing across the automotive, EdTech, and pharma-cosmetic industries, she has made significant contributions at Mahindra and Mahindra, Byjus, and Galderma.",
-      "top_in_cat": "top_in_cat",
-      "top_in_clat": "top_in_clat",
-      "top_in_cuet": "",
-      "top_in_ipmat": "",
-      "url": "https://res.cloudinary.com/duils7z7r/image/upload/v1704823400/pd3su5ujytrp8kiqz158.png",
-      "publicid": "pd3su5ujytrp8kiqz158",
-      "__v": 0,
-      "alumni": "Alumni - IIM Rohtak"
-    },
+      "education": "DILR Mentor",
+      "alumni": "Alumni - IIM Rohtak",
+      "about": "Stuti Ma'am, a DILR expert mentor, holds a B.Tech. in Mechanical Engineering and an MBA in Marketing and Strategy from IIM Rohtak. With a background in sales and marketing across the automotive, EdTech, and pharma-cosmetic industries, she has made significant contributions at Mahindra and Mahindra, Byjus, and Galderma.",
+      "top_in": "cuet-2025",
+      "url": "https://coachifylive-website.s3.ap-southeast-2.amazonaws.com/CAT+Top+Educators-05.png",
+      "publicid": "y7qyp3wdfihm7y2qm35p",
+      "__v": 0
+    } ,
+    {
+      "_id": "65b40dd9a5e6e0fd4aff8056",
+      "name": "Stuti Ma'am",
+      "education": "DILR Mentor",
+      "alumni": "Alumni - IIM Rohtak",
+      "about": "Stuti Ma'am, a DILR expert mentor, holds a B.Tech. in Mechanical Engineering and an MBA in Marketing and Strategy from IIM Rohtak. With a background in sales and marketing across the automotive, EdTech, and pharma-cosmetic industries, she has made significant contributions at Mahindra and Mahindra, Byjus, and Galderma.",
+      "top_in": "cuet-2025",
+      "url": "https://coachifylive-website.s3.ap-southeast-2.amazonaws.com/CAT+Top+Educators-05.png",
+      "publicid": "y7qyp3wdfihm7y2qm35p",
+      "__v": 0
+    }
   
   ]
     const responsive = {
